@@ -13,6 +13,8 @@ Before asking you anything, the agent works through every route it has, in a sen
 - your browser (only asking you to sign in)
 - screen control
 
+It also uses free routes before anything that spends credits or money, and asks before spending.
+
 Only when all of them are truly exhausted does it ask you, and then with **one single step**, already set up and waiting.
 
 ## What it does NOT change

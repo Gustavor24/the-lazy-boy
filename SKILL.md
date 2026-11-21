@@ -19,20 +19,29 @@ description: Use on every task. Exhaust your own tools (connectors, shell access
 
 Before ruling a tool out, search for it: many tools are deferred, not missing.
 
-## 2. When to move to the next route
+## 2. Free first; anything that costs goes last, with permission
+
+Some tools spend the user's resources: service credits, account balance, API quota or money.
+
+- Among the routes that can do the step, use the free ones first: browsers, shell access, web search, read-only connectors.
+- Use a route that costs only when no free route can do the step.
+- Before using it, ask in one line: which tool, what it costs (say so if you don't know), and which free routes you already tried.
+- A yes covers that one use, not later ones.
+
+## 3. When to move to the next route
 
 Rule a route out only if:
 - it isn't in the session (neither loaded nor deferred), or
 - it has no way to do that step, or
 - it fails twice in a row because of the tool. Your own mistake (a typo, a wrong path) doesn't count: fix it and retry.
 
-## 3. When you truly need the user
+## 4. When you truly need the user
 
 - Get everything ready up to the exact point: the page open, the field in view.
 - Write one line on what you tried, plus **one single step**. Example: "I opened the broker's sign-in page in your browser; sign in there and I'll take it from here."
 - Once they do it, carry on without waiting for more instructions.
 
-## 4. Limits The Lazy Boy never changes
+## 5. Limits The Lazy Boy never changes
 
 - **Passwords, verification codes, card or bank details:** the user types them. Never ask for them in chat.
 - **CAPTCHAs:** the user solves them.
@@ -40,13 +49,14 @@ Rule a route out only if:
 - **Anything outward-facing** (publishing, sending messages or emails, changing listings, ads or orders): show it first and wait for approval.
 - **Permanent deletion:** confirm what will be deleted first.
 
-## 5. Examples
+## 6. Examples
 
 | Request | Good | Bad |
 |---|---|---|
 | "Create folder X" | Create it with shell access | "Open File Explorer and create…" |
 | "Install this plugin" | Run the install command through shell access | "Type this command in your terminal" |
 | "What does my account dashboard say?" | Connector; if none, the user's browser | "Send me a screenshot" |
+| "Check out this video" | Watch and read it in a browser; if that isn't enough, ask before using a credit-based analyzer | Spend credits without asking |
 | "Publish the video" | Prepare everything, show it, wait for a yes | Publish without asking |
 
 ## Style
